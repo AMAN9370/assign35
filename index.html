@@ -8,21 +8,24 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Konkhmer+Sleokchher&display=swap');
     </style>
-    
     <link rel="stylesheet" href="./style.css">
 </head>
-<body class="josefin-sans-teju">
+<body class="josefin-sans-xyz">
     <h1 class="text-center my-3">My To-Do-List</h1>
     <div class="container">
         <div class="input">
             <div class="title">
                 <label for="task" class="text-light fs-2 mx-2">Task :</label>
-                <input type="text" id="task" name="task" placeholder="eg.Reading a book" class="mx-2">
+                <input type="text" class="input-todo" id="input-todo" placeholder="Enter your task...">
             </div>
             <div class="btn">
-                <button type="button" id="add-btn">Add</button>
+                <button onclick="add()" class="btn" id="add-btn">Add</button>
             </div>
         </div>
         
-        <ul id="list-cont"></ul>
+        <ul class="list-container" id="list-container"></ul>
     </div>
+
+    <script src="script.js"></script>
+
+</body><

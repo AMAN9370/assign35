@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.josefin-sans-teju {
+.josefin-sans-xyz {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   /* font-weight: ; */
@@ -42,13 +42,13 @@ input{
 button{
     padding: 10px 80px;
     border: none;
-   color: white;
-    font-size: 23px;
-    background-color: rgba(0,160,187,1);
+    color: white;
+    background-color:blue;
+    margin: 20px;
     
 }
 .list-container{
-    display: flex;
+    display: block;     
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
